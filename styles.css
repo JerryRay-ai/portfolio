@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+  align-items: right;
+  gap: 20px;
+  
+}
+svg{
+  color: black;
+  height: 2em;
+  width: 200px;
+}
