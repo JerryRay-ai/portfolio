@@ -13,10 +13,12 @@ main {
     margin: auto;
     background-color: color-mix(in srgb, color percentage, color percentage);
     background-color: snow;
+    border: 2px solid blue;
+    border-radius:10px;
 }
 
 .dev {
-    color: blueviolet;
+    color: blueviolet; 
     font-size: larger;
 }
 
@@ -36,6 +38,10 @@ nav {
     gap: 20px;
     margin-right: 2em;
     padding-top: 1em;
+    color: black;
+}
+.nav1{
+    color: blueviolet;
 }
 
 p {
@@ -92,6 +98,7 @@ main {
     width: 50%;
     float: none;
     padding: 20px;
+    
 }
 
 #tm {
@@ -105,8 +112,8 @@ h1 {
 
 .aside1 {
     font-size: large;
+    height: 200p;
     width: 25%;
-    /* background-color: blanchedalmond; */
     padding: 20px;
     float: right;
 }
@@ -114,7 +121,10 @@ h1 {
 .aside2 {
     font-size: large;
     width: 25%;
-    /* background-color: blanchedalmond ; */
     padding: 20px;
-    float: left;
+    float: right;
+}
+
+.contact {
+    background-color: white;
 }

@@ -1,0 +1,23 @@
+* {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline-start: 0.5em;
+    margin: 20px;
+    /* width: 50%; */
+    float: none;
+    padding: 20px;
+    float:left;
+}
+
+span {
+    color: blueviolet;
+    font-size: larger;
+    text-shadow: 2px 2px blue;
+}
