@@ -14,11 +14,11 @@ main {
     background-color: color-mix(in srgb, color percentage, color percentage);
     background-color: snow;
     border: 2px solid blue;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .dev {
-    color: blueviolet; 
+    color: blueviolet;
     font-size: larger;
 }
 
@@ -40,7 +40,8 @@ nav {
     padding-top: 1em;
     color: black;
 }
-.nav1{
+
+.nav1 {
     color: blueviolet;
 }
 
@@ -98,7 +99,7 @@ main {
     width: 50%;
     float: none;
     padding: 20px;
-    
+
 }
 
 #tm {
@@ -110,21 +111,66 @@ h1 {
     text-shadow: 2px 2px 5px blue;
 }
 
-.aside1 {
-    font-size: large;
-    height: 200p;
-    width: 25%;
-    padding: 20px;
-    float: right;
-}
-
-.aside2 {
-    font-size: large;
-    width: 25%;
-    padding: 20px;
-    float: right;
-}
 
 .contact {
     background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: cyan;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    /* body {
+        background-color: blanchedalmond;
+        color: white;
+    }
+
+    .div {
+        display: none;
+    } */
+    .nav1 {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .nav1 #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .nav1 a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    
+    .nav1 a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    
+    .nav1 a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .active {
+        /* background-color: #04AA6D; */
+        color: black;
+    }
 }

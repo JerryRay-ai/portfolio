@@ -1,7 +1,16 @@
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('navLinks');
+// const hamburger = document.getElementById('hamburger');
+// const navLinks = document.getElementById('navLinks');
 
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navLinks.classList.toggle('active');
-})
+// hamburger.addEventListener('click', () => {
+//     hamburger.classList.toggle('active');
+//     navLinks.classList.toggle('active');
+// })
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
