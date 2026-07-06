@@ -1,0 +1,132 @@
+/* Responsive adjustments */
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding-top: 160px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero h2 {
+        font-size: 1.95rem;
+    }
+
+    .section-header h2 {
+        font-size: 2.4rem;
+    }
+
+    .skills-grid,
+    .service-grid,
+    .testimonial-grid,
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .header {
+        top: 12px;
+        padding: 0 10px;
+    }
+
+    .navbar {
+        padding: 16px 20px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        padding: 100px 24px;
+        flex-direction: column;
+        gap: 22px;
+        background: var(--surface);
+        border-left: 1px solid var(--border);
+        box-shadow: -10px 0 40px rgba(0,0,0,.08);
+        transition: right .35s ease;
+        z-index: 1100;
+    }
+
+    .nav-links.open {
+        right: 0;
+    }
+
+    .nav-links a {
+        font-size: 1.1rem;
+    }
+
+    .nav-actions {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .hero {
+        gap: 40px;
+    }
+
+    section {
+        padding: 100px 6%;
+    }
+
+    .about .section-grid,
+    .contact .section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid,
+    .skills-grid,
+    .service-grid,
+    .testimonial-grid,
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-dialog {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .navbar {
+        border-radius: 0;
+        background: var(--surface);
+    }
+
+    .hero h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero p,
+    .about-content p,
+    .service-card p,
+    .testimonial-card p,
+    .contact-info div {
+        font-size: .98rem;
+    }
+
+    .image-placeholder {
+        width: 100%;
+        min-height: 420px;
+    }
+
+    .image-caption {
+        font-size: .95rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
